@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    t3_rails (0.0.1)
+    t3-rails (0.1.0)
       rails (~> 4.2.1)
+      railties (~> 4.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -103,4 +104,4 @@ PLATFORMS
 
 DEPENDENCIES
   sqlite3
-  t3_rails!
+  t3-rails!
