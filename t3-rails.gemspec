@@ -13,11 +13,10 @@ Gem::Specification.new do |s|
   s.description = "This gem provides T3 assets for your Rails 4+ application."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "railties", "~> 4.2.1"
-  s.add_dependency "rails", "~> 4.2.1"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rails", "~> 4.2.1"
 end
