@@ -7,6 +7,7 @@ require "t3/rails/version"
 Gem::Specification.new do |s|
   s.name        = "t3-rails"
   s.version     = T3::Rails::VERSION
+  s.homepage    = "https://github.com/domchristie/t3-rails"
   s.authors     = ["Dom Christie"]
   s.email       = ["christiedom@gmail.com"]
   s.summary     = "Use the T3 framework with Rails 4+"
